@@ -1,0 +1,7 @@
+result/
+*.csv
+*.zip
+logs/
+results/
+**/__pycache__/
+tmp/
