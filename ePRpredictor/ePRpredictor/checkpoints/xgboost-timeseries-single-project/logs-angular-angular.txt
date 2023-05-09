@@ -1,0 +1,331 @@
+2022-10-09 16:42:49,826 - INFO - ----------start-NEW-training----------
+2022-10-09 16:43:14,273 - INFO - ##########
+fold = 0
+##########
+2022-10-09 16:43:14,502 - INFO - model initing
+2022-10-09 16:43:14,502 - INFO - start 0 xgboost training!
+2022-10-09 16:43:52,200 - INFO - start 0 eval!
+2022-10-09 16:43:52,200 - INFO - ########## dataset length = 9
+2022-10-09 16:43:52,597 - INFO - RESULTS:
+2022-10-09 16:43:52,597 - INFO - epoch 0 Merge - acc = 0.530 - prec = 0.139 - kappa = -0.029 - recall = 0.396 - f1 = 0.205
+2022-10-09 16:43:52,617 - INFO - epoch 0 Merge - AUC = 0.498
+2022-10-09 16:43:52,624 - INFO - epoch 0 Reject - acc = 0.530 - prec = 0.835 - kappa = -0.029 - recall = 0.554 - f1 = 0.666
+2022-10-09 16:43:52,644 - INFO - epoch 0 Reject - AUC = 0.498
+2022-10-09 16:43:52,644 - INFO - epoch 0 Val Message - pos cnt = 134 as 0.154
+2022-10-09 16:43:52,656 - INFO - start 1 xgboost training!
+2022-10-09 16:44:30,966 - INFO - start 1 eval!
+2022-10-09 16:44:30,967 - INFO - ########## dataset length = 9
+2022-10-09 16:44:31,382 - INFO - RESULTS:
+2022-10-09 16:44:31,382 - INFO - epoch 1 Merge - acc = 0.615 - prec = 0.134 - kappa = -0.033 - recall = 0.276 - f1 = 0.180
+2022-10-09 16:44:31,397 - INFO - epoch 1 Merge - AUC = 0.504
+2022-10-09 16:44:31,404 - INFO - epoch 1 Reject - acc = 0.615 - prec = 0.837 - kappa = -0.033 - recall = 0.676 - f1 = 0.748
+2022-10-09 16:44:31,421 - INFO - epoch 1 Reject - AUC = 0.504
+2022-10-09 16:44:31,421 - INFO - epoch 1 Val Message - pos cnt = 134 as 0.154
+2022-10-09 16:44:31,445 - INFO - start Test Phase eval!
+2022-10-09 16:44:31,445 - INFO - ########## dataset length = 9
+2022-10-09 16:44:31,868 - INFO - RESULTS:
+2022-10-09 16:44:31,868 - INFO - epoch Test Phase Merge - acc = 0.648 - prec = 0.155 - kappa = 0.020 - recall = 0.328 - f1 = 0.211
+2022-10-09 16:44:31,884 - INFO - epoch Test Phase Merge - AUC = 0.538
+2022-10-09 16:44:31,892 - INFO - epoch Test Phase Reject - acc = 0.648 - prec = 0.862 - kappa = 0.020 - recall = 0.702 - f1 = 0.774
+2022-10-09 16:44:31,907 - INFO - epoch Test Phase Reject - AUC = 0.538
+2022-10-09 16:44:31,907 - INFO - epoch Test Phase Val Message - pos cnt = 125 as 0.143
+2022-10-09 16:44:31,907 - INFO - pre fold-0 ave result:
+Test set Merge base!	:acc=0.648	pre:0.155	recall:0.328	f1:0.211	kappa:0.020	auc:0.538
+Test set Reject base!	:acc=0.648	pre:0.862	recall:0.702	f1:0.774	kappa:0.020	auc:0.538
+2022-10-09 16:44:31,907 - INFO - ##########
+fold = 1
+##########
+2022-10-09 16:44:32,177 - INFO - model initing
+2022-10-09 16:44:32,178 - INFO - start 0 xgboost training!
+2022-10-09 16:45:13,507 - INFO - start 0 eval!
+2022-10-09 16:45:13,507 - INFO - ########## dataset length = 9
+2022-10-09 16:45:13,929 - INFO - RESULTS:
+2022-10-09 16:45:13,929 - INFO - epoch 0 Merge - acc = 0.533 - prec = 0.727 - kappa = 0.126 - recall = 0.431 - f1 = 0.541
+2022-10-09 16:45:13,949 - INFO - epoch 0 Merge - AUC = 0.621
+2022-10-09 16:45:13,959 - INFO - epoch 0 Reject - acc = 0.533 - prec = 0.415 - kappa = 0.126 - recall = 0.714 - f1 = 0.525
+2022-10-09 16:45:13,976 - INFO - epoch 0 Reject - AUC = 0.621
+2022-10-09 16:45:13,976 - INFO - epoch 0 Val Message - pos cnt = 557 as 0.639
+2022-10-09 16:45:13,990 - INFO - start 1 xgboost training!
+2022-10-09 16:45:55,972 - INFO - start 1 eval!
+2022-10-09 16:45:55,972 - INFO - ########## dataset length = 9
+2022-10-09 16:45:56,427 - INFO - RESULTS:
+2022-10-09 16:45:56,427 - INFO - epoch 1 Merge - acc = 0.503 - prec = 0.705 - kappa = 0.085 - recall = 0.382 - f1 = 0.496
+2022-10-09 16:45:56,452 - INFO - epoch 1 Merge - AUC = 0.575
+2022-10-09 16:45:56,461 - INFO - epoch 1 Reject - acc = 0.503 - prec = 0.396 - kappa = 0.085 - recall = 0.717 - f1 = 0.511
+2022-10-09 16:45:56,477 - INFO - epoch 1 Reject - AUC = 0.575
+2022-10-09 16:45:56,477 - INFO - epoch 1 Val Message - pos cnt = 557 as 0.639
+2022-10-09 16:45:56,494 - INFO - start Test Phase eval!
+2022-10-09 16:45:56,495 - INFO - ########## dataset length = 9
+2022-10-09 16:45:56,930 - INFO - RESULTS:
+2022-10-09 16:45:56,930 - INFO - epoch Test Phase Merge - acc = 0.537 - prec = 0.739 - kappa = 0.135 - recall = 0.433 - f1 = 0.546
+2022-10-09 16:45:56,957 - INFO - epoch Test Phase Merge - AUC = 0.606
+2022-10-09 16:45:56,967 - INFO - epoch Test Phase Reject - acc = 0.537 - prec = 0.415 - kappa = 0.135 - recall = 0.724 - f1 = 0.528
+2022-10-09 16:45:56,982 - INFO - epoch Test Phase Reject - AUC = 0.606
+2022-10-09 16:45:56,982 - INFO - epoch Test Phase Val Message - pos cnt = 561 as 0.643
+2022-10-09 16:45:56,983 - INFO - pre fold-1 ave result:
+Test set Merge base!	:acc=0.593	pre:0.447	recall:0.381	f1:0.378	kappa:0.078	auc:0.572
+Test set Reject base!	:acc=0.593	pre:0.639	recall:0.713	f1:0.651	kappa:0.078	auc:0.572
+2022-10-09 16:45:56,983 - INFO - ##########
+fold = 2
+##########
+2022-10-09 16:45:57,284 - INFO - model initing
+2022-10-09 16:45:57,284 - INFO - start 0 xgboost training!
+2022-10-09 16:46:55,091 - INFO - start 0 eval!
+2022-10-09 16:46:55,091 - INFO - ########## dataset length = 9
+2022-10-09 16:46:55,599 - INFO - RESULTS:
+2022-10-09 16:46:55,599 - INFO - epoch 0 Merge - acc = 0.498 - prec = 0.678 - kappa = 0.033 - recall = 0.451 - f1 = 0.542
+2022-10-09 16:46:55,636 - INFO - epoch 0 Merge - AUC = 0.533
+2022-10-09 16:46:55,650 - INFO - epoch 0 Reject - acc = 0.498 - prec = 0.357 - kappa = 0.033 - recall = 0.587 - f1 = 0.444
+2022-10-09 16:46:55,671 - INFO - epoch 0 Reject - AUC = 0.533
+2022-10-09 16:46:55,671 - INFO - epoch 0 Val Message - pos cnt = 574 as 0.658
+2022-10-09 16:46:55,688 - INFO - start 1 xgboost training!
+2022-10-09 16:47:54,481 - INFO - start 1 eval!
+2022-10-09 16:47:54,482 - INFO - ########## dataset length = 9
+2022-10-09 16:47:54,933 - INFO - RESULTS:
+2022-10-09 16:47:54,933 - INFO - epoch 1 Merge - acc = 0.533 - prec = 0.723 - kappa = 0.106 - recall = 0.472 - f1 = 0.571
+2022-10-09 16:47:54,948 - INFO - epoch 1 Merge - AUC = 0.578
+2022-10-09 16:47:54,956 - INFO - epoch 1 Reject - acc = 0.533 - prec = 0.390 - kappa = 0.106 - recall = 0.651 - f1 = 0.488
+2022-10-09 16:47:54,968 - INFO - epoch 1 Reject - AUC = 0.578
+2022-10-09 16:47:54,968 - INFO - epoch 1 Val Message - pos cnt = 574 as 0.658
+2022-10-09 16:47:54,997 - INFO - start Test Phase eval!
+2022-10-09 16:47:54,997 - INFO - ########## dataset length = 9
+2022-10-09 16:47:55,429 - INFO - RESULTS:
+2022-10-09 16:47:55,429 - INFO - epoch Test Phase Merge - acc = 0.513 - prec = 0.679 - kappa = 0.068 - recall = 0.446 - f1 = 0.539
+2022-10-09 16:47:55,445 - INFO - epoch Test Phase Merge - AUC = 0.560
+2022-10-09 16:47:55,455 - INFO - epoch Test Phase Reject - acc = 0.513 - prec = 0.394 - kappa = 0.068 - recall = 0.631 - f1 = 0.485
+2022-10-09 16:47:55,472 - INFO - epoch Test Phase Reject - AUC = 0.560
+2022-10-09 16:47:55,472 - INFO - epoch Test Phase Val Message - pos cnt = 556 as 0.637
+2022-10-09 16:47:55,472 - INFO - pre fold-2 ave result:
+Test set Merge base!	:acc=0.566	pre:0.524	recall:0.402	f1:0.432	kappa:0.075	auc:0.568
+Test set Reject base!	:acc=0.566	pre:0.557	recall:0.686	f1:0.596	kappa:0.075	auc:0.568
+2022-10-09 16:47:55,472 - INFO - ##########
+fold = 3
+##########
+2022-10-09 16:47:55,791 - INFO - model initing
+2022-10-09 16:47:55,792 - INFO - start 0 xgboost training!
+2022-10-09 16:48:39,535 - INFO - start 0 eval!
+2022-10-09 16:48:39,535 - INFO - ########## dataset length = 9
+2022-10-09 16:48:40,022 - INFO - RESULTS:
+2022-10-09 16:48:40,022 - INFO - epoch 0 Merge - acc = 0.736 - prec = 0.110 - kappa = -0.021 - recall = 0.156 - f1 = 0.129
+2022-10-09 16:48:40,038 - INFO - epoch 0 Merge - AUC = 0.419
+2022-10-09 16:48:40,045 - INFO - epoch 0 Reject - acc = 0.736 - prec = 0.872 - kappa = -0.021 - recall = 0.819 - f1 = 0.845
+2022-10-09 16:48:40,061 - INFO - epoch 0 Reject - AUC = 0.419
+2022-10-09 16:48:40,061 - INFO - epoch 0 Val Message - pos cnt = 109 as 0.125
+2022-10-09 16:48:40,076 - INFO - start 1 xgboost training!
+2022-10-09 16:49:23,300 - INFO - start 1 eval!
+2022-10-09 16:49:23,300 - INFO - ########## dataset length = 9
+2022-10-09 16:49:23,720 - INFO - RESULTS:
+2022-10-09 16:49:23,720 - INFO - epoch 1 Merge - acc = 0.672 - prec = 0.088 - kappa = -0.058 - recall = 0.174 - f1 = 0.117
+2022-10-09 16:49:23,736 - INFO - epoch 1 Merge - AUC = 0.415
+2022-10-09 16:49:23,744 - INFO - epoch 1 Reject - acc = 0.672 - prec = 0.863 - kappa = -0.058 - recall = 0.743 - f1 = 0.799
+2022-10-09 16:49:23,759 - INFO - epoch 1 Reject - AUC = 0.415
+2022-10-09 16:49:23,759 - INFO - epoch 1 Val Message - pos cnt = 109 as 0.125
+2022-10-09 16:49:23,776 - INFO - start Test Phase eval!
+2022-10-09 16:49:23,777 - INFO - ########## dataset length = 9
+2022-10-09 16:49:24,186 - INFO - RESULTS:
+2022-10-09 16:49:24,186 - INFO - epoch Test Phase Merge - acc = 0.766 - prec = 0.154 - kappa = 0.063 - recall = 0.250 - f1 = 0.190
+2022-10-09 16:49:24,201 - INFO - epoch Test Phase Merge - AUC = 0.523
+2022-10-09 16:49:24,209 - INFO - epoch Test Phase Reject - acc = 0.766 - prec = 0.900 - kappa = 0.063 - recall = 0.830 - f1 = 0.863
+2022-10-09 16:49:24,224 - INFO - epoch Test Phase Reject - AUC = 0.523
+2022-10-09 16:49:24,224 - INFO - epoch Test Phase Val Message - pos cnt = 96 as 0.110
+2022-10-09 16:49:24,224 - INFO - pre fold-3 ave result:
+Test set Merge base!	:acc=0.616	pre:0.432	recall:0.364	f1:0.371	kappa:0.072	auc:0.557
+Test set Reject base!	:acc=0.616	pre:0.643	recall:0.722	f1:0.663	kappa:0.072	auc:0.557
+2022-10-09 16:49:24,224 - INFO - ##########
+fold = 4
+##########
+2022-10-09 16:49:24,539 - INFO - model initing
+2022-10-09 16:49:24,539 - INFO - start 0 xgboost training!
+2022-10-09 16:50:08,317 - INFO - start 0 eval!
+2022-10-09 16:50:08,318 - INFO - ########## dataset length = 9
+2022-10-09 16:50:08,743 - INFO - RESULTS:
+2022-10-09 16:50:08,744 - INFO - epoch 0 Merge - acc = 0.951 - prec = 0.368 - kappa = 0.223 - recall = 0.184 - f1 = 0.246
+2022-10-09 16:50:08,761 - INFO - epoch 0 Merge - AUC = 0.588
+2022-10-09 16:50:08,768 - INFO - epoch 0 Reject - acc = 0.951 - prec = 0.964 - kappa = 0.223 - recall = 0.986 - f1 = 0.975
+2022-10-09 16:50:08,783 - INFO - epoch 0 Reject - AUC = 0.588
+2022-10-09 16:50:08,783 - INFO - epoch 0 Val Message - pos cnt = 38 as 0.044
+2022-10-09 16:50:08,797 - INFO - start 1 xgboost training!
+2022-10-09 16:50:52,692 - INFO - start 1 eval!
+2022-10-09 16:50:52,692 - INFO - ########## dataset length = 9
+2022-10-09 16:50:53,118 - INFO - RESULTS:
+2022-10-09 16:50:53,118 - INFO - epoch 1 Merge - acc = 0.952 - prec = 0.375 - kappa = 0.202 - recall = 0.158 - f1 = 0.222
+2022-10-09 16:50:53,133 - INFO - epoch 1 Merge - AUC = 0.635
+2022-10-09 16:50:53,141 - INFO - epoch 1 Reject - acc = 0.952 - prec = 0.963 - kappa = 0.202 - recall = 0.988 - f1 = 0.975
+2022-10-09 16:50:53,161 - INFO - epoch 1 Reject - AUC = 0.635
+2022-10-09 16:50:53,161 - INFO - epoch 1 Val Message - pos cnt = 38 as 0.044
+2022-10-09 16:50:53,195 - INFO - start Test Phase eval!
+2022-10-09 16:50:53,195 - INFO - ########## dataset length = 9
+2022-10-09 16:50:53,610 - INFO - RESULTS:
+2022-10-09 16:50:53,610 - INFO - epoch Test Phase Merge - acc = 0.959 - prec = 0.263 - kappa = 0.197 - recall = 0.185 - f1 = 0.217
+2022-10-09 16:50:53,625 - INFO - epoch Test Phase Merge - AUC = 0.646
+2022-10-09 16:50:53,635 - INFO - epoch Test Phase Reject - acc = 0.959 - prec = 0.974 - kappa = 0.197 - recall = 0.983 - f1 = 0.979
+2022-10-09 16:50:53,651 - INFO - epoch Test Phase Reject - AUC = 0.646
+2022-10-09 16:50:53,651 - INFO - epoch Test Phase Val Message - pos cnt = 27 as 0.031
+2022-10-09 16:50:53,652 - INFO - pre fold-4 ave result:
+Test set Merge base!	:acc=0.685	pre:0.398	recall:0.328	f1:0.341	kappa:0.097	auc:0.575
+Test set Reject base!	:acc=0.685	pre:0.709	recall:0.774	f1:0.726	kappa:0.097	auc:0.575
+2022-10-09 16:50:53,652 - INFO - ##########
+fold = 5
+##########
+2022-10-09 16:50:53,994 - INFO - model initing
+2022-10-09 16:50:53,994 - INFO - start 0 xgboost training!
+2022-10-09 16:51:38,974 - INFO - start 0 eval!
+2022-10-09 16:51:38,974 - INFO - ########## dataset length = 9
+2022-10-09 16:51:39,432 - INFO - RESULTS:
+2022-10-09 16:51:39,432 - INFO - epoch 0 Merge - acc = 0.959 - prec = 0.833 - kappa = 0.208 - recall = 0.125 - f1 = 0.217
+2022-10-09 16:51:39,445 - INFO - epoch 0 Merge - AUC = 0.678
+2022-10-09 16:51:39,455 - INFO - epoch 0 Reject - acc = 0.959 - prec = 0.960 - kappa = 0.208 - recall = 0.999 - f1 = 0.979
+2022-10-09 16:51:39,468 - INFO - epoch 0 Reject - AUC = 0.678
+2022-10-09 16:51:39,469 - INFO - epoch 0 Val Message - pos cnt = 40 as 0.046
+2022-10-09 16:51:39,484 - INFO - start 1 xgboost training!
+2022-10-09 16:52:26,314 - INFO - start 1 eval!
+2022-10-09 16:52:26,315 - INFO - ########## dataset length = 9
+2022-10-09 16:52:26,755 - INFO - RESULTS:
+2022-10-09 16:52:26,755 - INFO - epoch 1 Merge - acc = 0.956 - prec = 0.625 - kappa = 0.196 - recall = 0.125 - f1 = 0.208
+2022-10-09 16:52:26,773 - INFO - epoch 1 Merge - AUC = 0.647
+2022-10-09 16:52:26,780 - INFO - epoch 1 Reject - acc = 0.956 - prec = 0.959 - kappa = 0.196 - recall = 0.996 - f1 = 0.978
+2022-10-09 16:52:26,797 - INFO - epoch 1 Reject - AUC = 0.647
+2022-10-09 16:52:26,797 - INFO - epoch 1 Val Message - pos cnt = 40 as 0.046
+2022-10-09 16:52:26,815 - INFO - start Test Phase eval!
+2022-10-09 16:52:26,815 - INFO - ########## dataset length = 9
+2022-10-09 16:52:27,222 - INFO - RESULTS:
+2022-10-09 16:52:27,223 - INFO - epoch Test Phase Merge - acc = 0.959 - prec = 0.800 - kappa = 0.173 - recall = 0.103 - f1 = 0.182
+2022-10-09 16:52:27,241 - INFO - epoch Test Phase Merge - AUC = 0.660
+2022-10-09 16:52:27,251 - INFO - epoch Test Phase Reject - acc = 0.959 - prec = 0.960 - kappa = 0.173 - recall = 0.999 - f1 = 0.979
+2022-10-09 16:52:27,269 - INFO - epoch Test Phase Reject - AUC = 0.660
+2022-10-09 16:52:27,270 - INFO - epoch Test Phase Val Message - pos cnt = 39 as 0.045
+2022-10-09 16:52:27,270 - INFO - pre fold-5 ave result:
+Test set Merge base!	:acc=0.730	pre:0.465	recall:0.291	f1:0.314	kappa:0.109	auc:0.589
+Test set Reject base!	:acc=0.730	pre:0.751	recall:0.812	f1:0.768	kappa:0.109	auc:0.589
+2022-10-09 16:52:27,270 - INFO - ##########
+fold = 6
+##########
+2022-10-09 16:52:27,649 - INFO - model initing
+2022-10-09 16:52:27,649 - INFO - start 0 xgboost training!
+2022-10-09 16:53:16,723 - INFO - start 0 eval!
+2022-10-09 16:53:16,724 - INFO - ########## dataset length = 9
+2022-10-09 16:53:17,181 - INFO - RESULTS:
+2022-10-09 16:53:17,182 - INFO - epoch 0 Merge - acc = 0.950 - prec = 0.091 - kappa = 0.025 - recall = 0.029 - f1 = 0.043
+2022-10-09 16:53:17,205 - INFO - epoch 0 Merge - AUC = 0.536
+2022-10-09 16:53:17,214 - INFO - epoch 0 Reject - acc = 0.950 - prec = 0.961 - kappa = 0.025 - recall = 0.988 - f1 = 0.974
+2022-10-09 16:53:17,232 - INFO - epoch 0 Reject - AUC = 0.536
+2022-10-09 16:53:17,232 - INFO - epoch 0 Val Message - pos cnt = 35 as 0.040
+2022-10-09 16:53:17,247 - INFO - start 1 xgboost training!
+2022-10-09 16:54:27,418 - INFO - start 1 eval!
+2022-10-09 16:54:27,419 - INFO - ########## dataset length = 9
+2022-10-09 16:54:27,994 - INFO - RESULTS:
+2022-10-09 16:54:27,994 - INFO - epoch 1 Merge - acc = 0.952 - prec = 0.182 - kappa = 0.069 - recall = 0.057 - f1 = 0.087
+2022-10-09 16:54:28,034 - INFO - epoch 1 Merge - AUC = 0.559
+2022-10-09 16:54:28,042 - INFO - epoch 1 Reject - acc = 0.952 - prec = 0.962 - kappa = 0.069 - recall = 0.989 - f1 = 0.975
+2022-10-09 16:54:28,078 - INFO - epoch 1 Reject - AUC = 0.559
+2022-10-09 16:54:28,079 - INFO - epoch 1 Val Message - pos cnt = 35 as 0.040
+2022-10-09 16:54:28,109 - INFO - start Test Phase eval!
+2022-10-09 16:54:28,109 - INFO - ########## dataset length = 9
+2022-10-09 16:54:28,650 - INFO - RESULTS:
+2022-10-09 16:54:28,650 - INFO - epoch Test Phase Merge - acc = 0.966 - prec = 0.429 - kappa = 0.270 - recall = 0.214 - f1 = 0.286
+2022-10-09 16:54:28,671 - INFO - epoch Test Phase Merge - AUC = 0.654
+2022-10-09 16:54:28,679 - INFO - epoch Test Phase Reject - acc = 0.966 - prec = 0.974 - kappa = 0.270 - recall = 0.991 - f1 = 0.982
+2022-10-09 16:54:28,708 - INFO - epoch Test Phase Reject - AUC = 0.654
+2022-10-09 16:54:28,708 - INFO - epoch Test Phase Val Message - pos cnt = 28 as 0.032
+2022-10-09 16:54:28,709 - INFO - pre fold-6 ave result:
+Test set Merge base!	:acc=0.764	pre:0.460	recall:0.280	f1:0.310	kappa:0.132	auc:0.598
+Test set Reject base!	:acc=0.764	pre:0.783	recall:0.837	f1:0.799	kappa:0.132	auc:0.598
+2022-10-09 16:54:28,710 - INFO - ##########
+fold = 7
+##########
+2022-10-09 16:54:29,111 - INFO - model initing
+2022-10-09 16:54:29,112 - INFO - start 0 xgboost training!
+2022-10-09 16:55:15,862 - INFO - start 0 eval!
+2022-10-09 16:55:15,863 - INFO - ########## dataset length = 9
+2022-10-09 16:55:16,310 - INFO - RESULTS:
+2022-10-09 16:55:16,311 - INFO - epoch 0 Merge - acc = 0.953 - prec = 0.200 - kappa = 0.037 - recall = 0.026 - f1 = 0.047
+2022-10-09 16:55:16,325 - INFO - epoch 0 Merge - AUC = 0.490
+2022-10-09 16:55:16,333 - INFO - epoch 0 Reject - acc = 0.953 - prec = 0.957 - kappa = 0.037 - recall = 0.995 - f1 = 0.976
+2022-10-09 16:55:16,349 - INFO - epoch 0 Reject - AUC = 0.490
+2022-10-09 16:55:16,349 - INFO - epoch 0 Val Message - pos cnt = 38 as 0.044
+2022-10-09 16:55:16,364 - INFO - start 1 xgboost training!
+2022-10-09 16:56:01,299 - INFO - start 1 eval!
+2022-10-09 16:56:01,299 - INFO - ########## dataset length = 9
+2022-10-09 16:56:01,734 - INFO - RESULTS:
+2022-10-09 16:56:01,734 - INFO - epoch 1 Merge - acc = 0.948 - prec = 0.111 - kappa = 0.026 - recall = 0.026 - f1 = 0.043
+2022-10-09 16:56:01,750 - INFO - epoch 1 Merge - AUC = 0.524
+2022-10-09 16:56:01,758 - INFO - epoch 1 Reject - acc = 0.948 - prec = 0.957 - kappa = 0.026 - recall = 0.990 - f1 = 0.973
+2022-10-09 16:56:01,773 - INFO - epoch 1 Reject - AUC = 0.524
+2022-10-09 16:56:01,773 - INFO - epoch 1 Val Message - pos cnt = 38 as 0.044
+2022-10-09 16:56:01,802 - INFO - start Test Phase eval!
+2022-10-09 16:56:01,802 - INFO - ########## dataset length = 9
+2022-10-09 16:56:02,228 - INFO - RESULTS:
+2022-10-09 16:56:02,229 - INFO - epoch Test Phase Merge - acc = 0.960 - prec = 0.571 - kappa = 0.175 - recall = 0.111 - f1 = 0.186
+2022-10-09 16:56:02,249 - INFO - epoch Test Phase Merge - AUC = 0.561
+2022-10-09 16:56:02,256 - INFO - epoch Test Phase Reject - acc = 0.960 - prec = 0.963 - kappa = 0.175 - recall = 0.996 - f1 = 0.979
+2022-10-09 16:56:02,268 - INFO - epoch Test Phase Reject - AUC = 0.561
+2022-10-09 16:56:02,268 - INFO - epoch Test Phase Val Message - pos cnt = 36 as 0.041
+2022-10-09 16:56:02,272 - INFO - pre fold-7 ave result:
+Test set Merge base!	:acc=0.789	pre:0.474	recall:0.259	f1:0.295	kappa:0.138	auc:0.594
+Test set Reject base!	:acc=0.789	pre:0.805	recall:0.857	f1:0.821	kappa:0.138	auc:0.594
+2022-10-09 16:56:02,272 - INFO - ##########
+fold = 8
+##########
+2022-10-09 16:56:02,648 - INFO - model initing
+2022-10-09 16:56:02,649 - INFO - start 0 xgboost training!
+2022-10-09 16:56:50,048 - INFO - start 0 eval!
+2022-10-09 16:56:50,048 - INFO - ########## dataset length = 9
+2022-10-09 16:56:50,538 - INFO - RESULTS:
+2022-10-09 16:56:50,538 - INFO - epoch 0 Merge - acc = 0.962 - prec = 0.167 - kappa = 0.046 - recall = 0.034 - f1 = 0.057
+2022-10-09 16:56:50,555 - INFO - epoch 0 Merge - AUC = 0.585
+2022-10-09 16:56:50,563 - INFO - epoch 0 Reject - acc = 0.962 - prec = 0.968 - kappa = 0.046 - recall = 0.994 - f1 = 0.981
+2022-10-09 16:56:50,580 - INFO - epoch 0 Reject - AUC = 0.585
+2022-10-09 16:56:50,580 - INFO - epoch 0 Val Message - pos cnt = 29 as 0.033
+2022-10-09 16:56:50,607 - INFO - start 1 xgboost training!
+2022-10-09 16:57:37,086 - INFO - start 1 eval!
+2022-10-09 16:57:37,086 - INFO - ########## dataset length = 9
+2022-10-09 16:57:37,598 - INFO - RESULTS:
+2022-10-09 16:57:37,598 - INFO - epoch 1 Merge - acc = 0.964 - prec = 0.250 - kappa = 0.053 - recall = 0.034 - f1 = 0.061
+2022-10-09 16:57:37,614 - INFO - epoch 1 Merge - AUC = 0.619
+2022-10-09 16:57:37,622 - INFO - epoch 1 Reject - acc = 0.964 - prec = 0.968 - kappa = 0.053 - recall = 0.996 - f1 = 0.982
+2022-10-09 16:57:37,637 - INFO - epoch 1 Reject - AUC = 0.619
+2022-10-09 16:57:37,637 - INFO - epoch 1 Val Message - pos cnt = 29 as 0.033
+2022-10-09 16:57:37,668 - INFO - start Test Phase eval!
+2022-10-09 16:57:37,668 - INFO - ########## dataset length = 9
+2022-10-09 16:57:38,155 - INFO - RESULTS:
+2022-10-09 16:57:38,155 - INFO - epoch Test Phase Merge - acc = 0.968 - prec = 0.000 - kappa = -0.008 - recall = 0.000 - f1 = 0.000
+2022-10-09 16:57:38,171 - INFO - epoch Test Phase Merge - AUC = 0.523
+2022-10-09 16:57:38,179 - INFO - epoch Test Phase Reject - acc = 0.968 - prec = 0.972 - kappa = -0.008 - recall = 0.995 - f1 = 0.984
+2022-10-09 16:57:38,194 - INFO - epoch Test Phase Reject - AUC = 0.523
+2022-10-09 16:57:38,194 - INFO - epoch Test Phase Val Message - pos cnt = 24 as 0.027
+2022-10-09 16:57:38,194 - INFO - pre fold-8 ave result:
+Test set Merge base!	:acc=0.808	pre:0.421	recall:0.230	f1:0.262	kappa:0.122	auc:0.586
+Test set Reject base!	:acc=0.808	pre:0.824	recall:0.872	f1:0.839	kappa:0.122	auc:0.586
+2022-10-09 16:57:38,194 - INFO - ##########
+fold = 9
+##########
+2022-10-09 16:57:38,595 - INFO - model initing
+2022-10-09 16:57:38,595 - INFO - start 0 xgboost training!
+2022-10-09 16:58:25,045 - INFO - start 0 eval!
+2022-10-09 16:58:25,046 - INFO - ########## dataset length = 9
+2022-10-09 16:58:25,557 - INFO - RESULTS:
+2022-10-09 16:58:25,557 - INFO - epoch 0 Merge - acc = 0.952 - prec = 0.643 - kappa = 0.282 - recall = 0.196 - f1 = 0.300
+2022-10-09 16:58:25,573 - INFO - epoch 0 Merge - AUC = 0.782
+2022-10-09 16:58:25,581 - INFO - epoch 0 Reject - acc = 0.952 - prec = 0.957 - kappa = 0.282 - recall = 0.994 - f1 = 0.975
+2022-10-09 16:58:25,598 - INFO - epoch 0 Reject - AUC = 0.782
+2022-10-09 16:58:25,598 - INFO - epoch 0 Val Message - pos cnt = 46 as 0.053
+2022-10-09 16:58:25,614 - INFO - start 1 xgboost training!
+2022-10-09 16:59:14,166 - INFO - start 1 eval!
+2022-10-09 16:59:14,166 - INFO - ########## dataset length = 9
+2022-10-09 16:59:14,649 - INFO - RESULTS:
+2022-10-09 16:59:14,649 - INFO - epoch 1 Merge - acc = 0.950 - prec = 0.550 - kappa = 0.311 - recall = 0.239 - f1 = 0.333
+2022-10-09 16:59:14,666 - INFO - epoch 1 Merge - AUC = 0.776
+2022-10-09 16:59:14,674 - INFO - epoch 1 Reject - acc = 0.950 - prec = 0.959 - kappa = 0.311 - recall = 0.989 - f1 = 0.974
+2022-10-09 16:59:14,696 - INFO - epoch 1 Reject - AUC = 0.776
+2022-10-09 16:59:14,696 - INFO - epoch 1 Val Message - pos cnt = 46 as 0.053
+2022-10-09 16:59:14,715 - INFO - start Test Phase eval!
+2022-10-09 16:59:14,715 - INFO - ########## dataset length = 9
+2022-10-09 16:59:15,208 - INFO - RESULTS:
+2022-10-09 16:59:15,208 - INFO - epoch Test Phase Merge - acc = 0.959 - prec = 0.647 - kappa = 0.362 - recall = 0.268 - f1 = 0.379
+2022-10-09 16:59:15,226 - INFO - epoch Test Phase Merge - AUC = 0.822
+2022-10-09 16:59:15,236 - INFO - epoch Test Phase Reject - acc = 0.959 - prec = 0.965 - kappa = 0.362 - recall = 0.993 - f1 = 0.979
+2022-10-09 16:59:15,254 - INFO - epoch Test Phase Reject - AUC = 0.822
+2022-10-09 16:59:15,254 - INFO - epoch Test Phase Val Message - pos cnt = 41 as 0.047
+2022-10-09 16:59:15,254 - INFO - pre fold-9 ave result:
+Test set Merge base!	:acc=0.823	pre:0.444	recall:0.234	f1:0.274	kappa:0.146	auc:0.609
+Test set Reject base!	:acc=0.823	pre:0.838	recall:0.884	f1:0.853	kappa:0.146	auc:0.609

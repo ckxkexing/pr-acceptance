@@ -1,0 +1,11 @@
+2022-10-09 10:56:28,448 - INFO - ----------start-NEW-training----------
+2022-10-09 10:56:55,669 - INFO - model initing
+2022-10-09 10:56:55,669 - INFO - Train Without Loading From Phase 1 Parameters
+2022-10-09 10:56:55,705 - INFO - start Test Phase eval!
+2022-10-09 10:56:55,705 - INFO - ########## dataset length = 151
+2022-10-09 10:56:58,986 - INFO - RESULTS:
+2022-10-09 10:56:58,986 - INFO - epoch Test Phase Merge - acc = 0.783 - prec = 0.859 - kappa = 0.461 - recall = 0.841 - f1 = 0.850
+2022-10-09 10:56:59,014 - INFO - epoch Test Phase Merge - AUC = 0.805
+2022-10-09 10:56:59,201 - INFO - epoch Test Phase Reject - acc = 0.783 - prec = 0.594 - kappa = 0.461 - recall = 0.628 - f1 = 0.611
+2022-10-09 10:56:59,220 - INFO - epoch Test Phase Reject - AUC = 0.805
+2022-10-09 10:56:59,220 - INFO - epoch Test Phase Val Message - pos cnt = 11000 as 0.730

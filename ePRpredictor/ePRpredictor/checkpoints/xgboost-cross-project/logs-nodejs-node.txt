@@ -1,0 +1,29 @@
+2022-10-09 10:58:54,698 - INFO - ----------start-NEW-training----------
+2022-10-09 10:59:22,522 - INFO - model initing
+2022-10-09 10:59:22,524 - INFO - Train Without Loading From Phase 1 Parameters
+2022-10-09 10:59:22,524 - INFO - start 0 xgboost training!
+2022-10-09 11:01:45,870 - INFO - start 0 eval!
+2022-10-09 11:01:45,872 - INFO - ########## dataset length = 126
+2022-10-09 11:01:49,163 - INFO - RESULTS:
+2022-10-09 11:01:49,164 - INFO - epoch 0 Merge - acc = 0.832 - prec = 0.851 - kappa = 0.094 - recall = 0.970 - f1 = 0.907
+2022-10-09 11:01:49,182 - INFO - epoch 0 Merge - AUC = 0.683
+2022-10-09 11:01:49,276 - INFO - epoch 0 Reject - acc = 0.832 - prec = 0.374 - kappa = 0.094 - recall = 0.096 - f1 = 0.152
+2022-10-09 11:01:49,300 - INFO - epoch 0 Reject - AUC = 0.683
+2022-10-09 11:01:49,301 - INFO - epoch 0 Val Message - pos cnt = 10570 as 0.842
+2022-10-09 11:01:49,339 - INFO - start 1 xgboost training!
+2022-10-09 11:04:47,765 - INFO - start 1 eval!
+2022-10-09 11:04:47,766 - INFO - ########## dataset length = 126
+2022-10-09 11:04:50,688 - INFO - RESULTS:
+2022-10-09 11:04:50,688 - INFO - epoch 1 Merge - acc = 0.831 - prec = 0.850 - kappa = 0.088 - recall = 0.969 - f1 = 0.906
+2022-10-09 11:04:50,711 - INFO - epoch 1 Merge - AUC = 0.690
+2022-10-09 11:04:50,781 - INFO - epoch 1 Reject - acc = 0.831 - prec = 0.360 - kappa = 0.088 - recall = 0.092 - f1 = 0.147
+2022-10-09 11:04:50,803 - INFO - epoch 1 Reject - AUC = 0.690
+2022-10-09 11:04:50,803 - INFO - epoch 1 Val Message - pos cnt = 10570 as 0.842
+2022-10-09 11:04:50,864 - INFO - start Test Phase eval!
+2022-10-09 11:04:50,864 - INFO - ########## dataset length = 126
+2022-10-09 11:04:53,610 - INFO - RESULTS:
+2022-10-09 11:04:53,610 - INFO - epoch Test Phase Merge - acc = 0.835 - prec = 0.856 - kappa = 0.076 - recall = 0.969 - f1 = 0.909
+2022-10-09 11:04:53,629 - INFO - epoch Test Phase Merge - AUC = 0.681
+2022-10-09 11:04:53,698 - INFO - epoch Test Phase Reject - acc = 0.835 - prec = 0.326 - kappa = 0.076 - recall = 0.084 - f1 = 0.133
+2022-10-09 11:04:53,718 - INFO - epoch Test Phase Reject - AUC = 0.681
+2022-10-09 11:04:53,718 - INFO - epoch Test Phase Val Message - pos cnt = 10658 as 0.849
