@@ -1,0 +1,14 @@
+__pycache__/
+*.tar
+*.pth
+*.th
+*.txt
+data/
+*.json
+*.bin
+logs/
+pretrain/
+inputs/
+checkpoints/
+*.csv
+*.gz
